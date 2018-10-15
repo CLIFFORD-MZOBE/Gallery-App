@@ -1,0 +1,30 @@
+<!--
+  Generated template for the GalleryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title  style="background-color:  #887a91">GALLERY</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding style="background-color:  #362a3d">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4>
+        <button ion-button (click) = "Video()" style="background-color:  #887a91"><ion-icon ios="ios-videocam" md="md-videocam"></ion-icon></button>
+      </ion-col>
+      <ion-col col-4>
+        <button ion-button (click) = "Audio()" style="background-color:  #887a91"><ion-icon ios="ios-recording" md="md-recording"></ion-icon></button>
+      </ion-col>
+      <ion-col col-4>
+        <button ion-button (click) = "Picture()" style="background-color:  #887a91"><ion-icon ios="ios-images" md="md-images"></ion-icon></button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

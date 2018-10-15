@@ -45,5 +45,19 @@
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
 
+  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAq9in8_uXjmfOxRu43_8IQb18Q07BRE1w",
+      authDomain: "fir-storage-ionic-3e77a.firebaseapp.com",
+      databaseURL: "https://fir-storage-ionic-3e77a.firebaseio.com",
+      projectId: "fir-storage-ionic-3e77a",
+      storageBucket: "fir-storage-ionic-3e77a.appspot.com",
+      messagingSenderId: "91745369394"
+    };
+    firebase.initializeApp(config);
+  </script>
+
 </body>
 </html>

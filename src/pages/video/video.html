@@ -1,0 +1,26 @@
+<!--
+  Generated template for the VideoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title  style="background-color:  #887a91">VIDEOS</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding padding style="background-color:  #362a3d">
+  <ion-grid>
+    <ion-row *ngFor = "let video of videos">
+      <ion-col>
+        <video controls>
+          <source src="{{video.downloadURL}}" type ="video/mp4">
+          </video> 
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
